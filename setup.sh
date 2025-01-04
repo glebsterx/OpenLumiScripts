@@ -31,7 +31,7 @@ generate_components_list() {
     for script in "$INSTALL_DIR"/*.sh; do
         script_name=$(basename "$script" .sh)
         case "$script_name" in
-            "setup" | "update_repo_path")
+            "start" | "setup" | "update_repo_path")
                 # Пропускаем setup.sh и update_repo_path.sh
                 continue
                 ;;
