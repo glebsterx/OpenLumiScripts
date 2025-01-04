@@ -3,4 +3,4 @@ mkdir -p /tmp/OpenLumi
 tar -xvzf /tmp/OpenLumi.tar.gz -C /tmp/OpenLumi
 mv /tmp/OpenLumi/OpenLumiScripts-main/* /tmp/OpenLumi/
 rm -rf /tmp/OpenLumi/OpenLumiScripts-main
-sh /tmp/OpenLumi/setup.sh
+/tmp/OpenLumi/setup.sh
