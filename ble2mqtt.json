@@ -1,0 +1,15 @@
+{
+    "mqtt_host": "192.168.0.3",
+    "mqtt_port": 1883,
+    "mqtt_user": "",
+    "mqtt_password": "",
+    "log_level": "INFO",
+    "devices": [
+        {
+            "friendly_name": "Redmond RK-G214S",
+            "address": "E6:CB:DD:7E:8F:E1",
+            "type": "redmond_rk_g200",
+            "key": "fffffffffffffff0"
+        }
+    ]
+}
