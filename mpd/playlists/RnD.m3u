@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1,Европа Плюс
+https://online2.gkvr.ru:8001/europa_rnd_64.aac
+#EXTINF:-1,DFM 
+https://online2.gkvr.ru:8001/dfm_rnd_64.aac
+#EXTINF:-1,Хит FM
+https://online2.gkvr.ru:8001/hitfm_rnd_64.aac
+#EXTINF:-1,Love Radio
+http://stream.loveradio.ru:80/12_love_64?type=.aac&UID=291054D8769D327DE53A629C5055204E
+#EXTINF:-1,Русское Радио
+https://online2.gkvr.ru:8001/rusradio_rnd_64.aac
+#EXTINF:-1,Ретро FM
+https://online2.gkvr.ru:8001/retro_rnd_64.aac

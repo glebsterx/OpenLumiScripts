@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1,Lounge.FM Digital
+http://188.138.9.183/digital.mp3
+#EXTINF:-1,Lounge.FM UKW OÖ
+http://188.138.9.183/lounge-ooe.mp3
+#EXTINF:-1,Lounge.FM UKW Wien
+http://188.138.9.183/ukwwien.mp3
+#EXTINF:-1,Lounge.FM 100% Austria
+http://188.138.9.183/100austria.mp3
