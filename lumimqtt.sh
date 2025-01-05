@@ -44,8 +44,7 @@ printf '{
 ' "$MQTT_SERVER" > /etc/lumimqtt.json
 
 # wget https://raw.githubusercontent.com/openlumi/lumimqtt/main/init.d/lumimqtt -O /etc/init.d/lumimqtt
-echo '
-#!/bin/sh /etc/rc.common
+echo '#!/bin/sh /etc/rc.common
 
 START=98
 USE_PROCD=1

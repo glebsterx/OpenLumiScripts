@@ -150,6 +150,21 @@ EOF
 	fi
 }
 
+add_zeroconf() {
+	if ! grep -q "^zeroconf true$" "$CONFIG_FILE"; then
+		echo "Добавляем zeroconf с адресом $CURRENT_IP..."
+		cat <<EOF >> "$CONFIG_FILE"
+
+zeroconf true
+zeroconf service_name mosquitto
+zeroconf hostname $CURRENT_IP
+zeroconf port 1883
+EOF
+	else
+		echo "Подключение zeroconf уже настроено."
+	fi
+}
+
 ##################################################
 
 # Проверяем, есть ли строка listener 1883
@@ -167,6 +182,8 @@ if ! grep -q "^allow_anonymous true$" "$CONFIG_FILE"; then
 else
     echo "'allow_anonymous true' уже существует в $CONFIG_FILE."
 fi
+
+add_zeroconf
 
 add_main_server_bridge
 
